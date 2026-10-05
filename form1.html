@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admition Form</title>
+</head>
+<body>
+    <form action="/form1.html" method="get" enctype="multipart/form-data" autocomplete="on" target="_self">
+        <fieldset>
+            <center><h1><u>AMBITION</u>
+            </h1><h1><u>INSTITUTE OF TECNOLOGY</u>
+            </h1>
+            </center>
+        </fieldset>
+        <fieldset >
+            <b>SESSION</b>
+            <input type="number", name="session"><br><br>
+            <b>Admition year</b>
+            <label for="year">1<sup>st</sup></label>
+            <input type="radio" name="year">
+            <label for="year">2<sup>nd</sup></label>
+            <input type="radio" name="year">
+            <label for="year">3<sup>rd</sup></label>
+            <input type="radio" name="year">
+            <br><br>
+            <b>Course applied for</b>
+            <input type="text" name="course" required>
+            <br><br>
+            <b>Name of the applicant (in block latters)</b>
+            <input type="text" name="name"required pattern="(A-Z)"><br><br>
+            <div>
+                <div>
+                    <b>Father's Name</b>
+                    <input type="text" name="fname">
+                    <br>
+                    <b>Mother's Name</b>
+                    <input type="text" name="mname"><br>
+                </div>
+                <br>
+                <div><lable for="photo">Photo</lable>
+                    <input type="file" name="photo" >
+                </div>
+            </div>
+            <br><b>Occupatin</b>
+            <input type="text" name="occupation">
+            <br>
+            <b for="address">Present address</b>
+            <input type="text" name="address">
+            <br>
+            <b for="pin">Pin</b>
+            <input type="number" name="pin" minlength="6" maxlength="6">
+            <br>
+
+            
+                
+        </fieldset>
+        <input type="submit" name="submit">
+
+    
+    </form>
+    
+</body>
+</html>
